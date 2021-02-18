@@ -10,7 +10,7 @@ repositories {
 	jcenter()
 }
 
-group = 'org.standardout'
+group = 'tools.mdsd'
 version = '1.8.1'
 
 sourceCompatibility = '1.7'
@@ -82,12 +82,12 @@ publishing {
 			pom {
 				name = 'bnd-platform'
 				description = 'Build OSGi bundles and Eclipse Update Sites from existing JARs, e.g. from Maven repositories (Plugin for Gradle)'
-				url = 'https://github.com/stempler/bnd-platform'
+				url = 'https://github.com/MDSD-Tools/bnd-platform'
 
 				scm {
-					url = 'scm:git:https://github.com/stempler/bnd-platform.git'
-					connection = 'scm:git:https://github.com/stempler/bnd-platform.git'
-					developerConnection = 'scm:git:https://github.com/stempler/bnd-platform.git'
+					url = 'scm:git:https://github.com/mdsd-tools/bnd-platform.git'
+					connection = 'scm:git:https://github.com/mdsd-tools/bnd-platform.git'
+					developerConnection = 'scm:git:https://github.com/mdsd-tools/bnd-platform.git'
 				}
 
 				licenses {
